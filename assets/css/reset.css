@@ -8,6 +8,10 @@
   font: inherit;
 }
 
+::selection {
+  background: #B4D5FF;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
@@ -80,6 +84,10 @@ html, body {
   -ms-text-size-adjust: 100%;
   min-width: 100vw;
   min-height: 100vh;
+  height: auto;
+  width: auto;
+  color: #000;
+  text-rendering: optimizeLegibility;
 }
 
 body {
