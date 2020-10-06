@@ -1,6 +1,6 @@
 
 const body = document.body
 
-body.onload = () => {
+document.onload = () => {
   return console.log("Log");
 }
