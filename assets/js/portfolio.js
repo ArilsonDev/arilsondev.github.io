@@ -1,7 +1,7 @@
 
 
 (function(){
-  const scrollHeader = (e) => {
+  /*const scrollHeader = (e) => {
     let header = document.querySelector("header")
     let top = document.documentElement.scrollTop
     if(top >= window.innerHeight){
@@ -13,7 +13,7 @@
       header.style.height = 100
     }
   }
-  window.addEventListener("scroll", scrollHeader)
+  window.addEventListener("scroll", scrollHeader)*/
 })();
 
 document.addEventListener("DOMContentLoaded", console.log("load"));

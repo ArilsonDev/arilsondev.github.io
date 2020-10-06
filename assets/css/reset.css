@@ -4,7 +4,8 @@
   border: 0;
   outline: none;
   box-sizing: border-box;
-	vertical-align: baseline;
+  vertical-align: baseline;
+  font: inherit;
 }
 
 h1, h2, h3, h4, h5, h6 {
