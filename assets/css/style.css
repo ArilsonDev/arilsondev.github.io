@@ -41,6 +41,12 @@ header .header_container nav ul li a {
   font-weight: 400;
   color: #fff;
   padding: 5px 10px;
+  border: 1px solid transparent;
+  transition: linear 0.5s border;
+}
+
+header .header_container nav ul li a:hover {
+  border: 1px solid #fff;
 }
 
 main {
@@ -53,6 +59,6 @@ main {
 footer {
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 250px;
   background-color: #1a1a1a;
 }
