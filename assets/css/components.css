@@ -5,4 +5,9 @@ a.btn {
   border-radius: 20px;
   padding: 10px 20px;
   border: 1px solid;
+  transition: linear background-color 0.5s;
+}
+
+a.btn:hover {
+  background-color: #003049;
 }
