@@ -1,6 +1,6 @@
 
 const body = document.body
 
-document.onload = () => {
-  return console.log("Log");
-}
+body.addEventListener("load", () => {
+  console.log("Loaded content.")
+})
