@@ -227,9 +227,9 @@ main > section.tertiary {
 
 footer {
   display: grid;
-  grid-template-rows: 3fr 2fr 30px;
+  grid-template-rows: 1fr 120px 30px;
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   background-color: #1a1a1a;
 }
 
@@ -264,6 +264,17 @@ footer > .footer-links ul > li > a {
   text-align: center;
   font-weight: 700;
   transition: color .5s ease-in-out;
+}
+
+footer > .footer-links ul > li > a h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+footer > .footer-links ul > li > a h2 span {
+  margin-top: 10px;
 }
 
 footer > .footer-links ul > li > a:hover {
