@@ -228,8 +228,31 @@ main > section.tertiary {
 }
 
 footer {
-  display: flex;
+  display: grid;
+  grid-template-rows: 3fr 2fr 30px;
   width: 100%;
   height: 50vh;
   background-color: #242423;
+}
+
+footer > div {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+  color: #fff;
+}
+
+footer > .footer-copyright {
+  width: 100%;
+  background-color: #111;
+}
+
+footer > .footer-copyright > .copyright-text {
+  margin: 0 auto;
+  width: 1200px;
+  font-size: 0.7rem;
+  color: #bbb;
+  font-style: italic;
+  text-transform: uppercase;
 }
