@@ -196,8 +196,9 @@ main > section.secondary .container .container-header h1 {
 }
 
 h1.big_text {
-  margin: 20px;
+  margin: 20px 15px;
   font-size: 10rem;
+  cursor: pointer;
 }
 
 main > section.tertiary {
