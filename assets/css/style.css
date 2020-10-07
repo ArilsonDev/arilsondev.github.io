@@ -6,7 +6,6 @@ body {
   font-size: 100%;
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
-  /*background-color: #f1faee;*/
 }
 
 header {
@@ -14,7 +13,6 @@ header {
   width: 100%;
   height: 15vh;
   background: #003049;
-  transition: linear 1s height;
 }
 
 header .header_container {
@@ -33,7 +31,7 @@ header .header_container a.logo_link {
 
 header .header_container a.logo_link .logo {
   color: #ffd23f;
-  font-size: 2rem;
+  font-size: 2.1rem;
   text-shadow: 1px 2px 1px #f7b538;
 }
 
@@ -129,8 +127,8 @@ section.primary.web_body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+  animation: bounce;
+  animation-duration: 2s;
 }
 
 .frontable h2 {
@@ -232,7 +230,7 @@ footer {
   grid-template-rows: 3fr 2fr 30px;
   width: 100%;
   height: 50vh;
-  background-color: #242423;
+  background-color: #1a1a1a;
 }
 
 footer > div {
@@ -243,22 +241,33 @@ footer > div {
   color: #fff;
 }
 
+footer > .footer-links {
+  background: rgb(240, 60, 64);
+  width: 100%;
+}
+
 footer > .footer-links ul {
+  width: 1200px;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   font-family: 'Montserrat', sans-serif;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 footer > .footer-links ul > li > a {
-  font-size: 40px;
+  font-size: 35px;
   margin: 0;
   text-decoration: none;
   color: #000;
   text-align: center;
   font-weight: 700;
   transition: color .5s ease-in-out;
+}
+
+footer > .footer-links ul > li > a:hover {
+  color: rgba(0,0,0,0.5);
 }
 
 footer > .footer-copyright {
