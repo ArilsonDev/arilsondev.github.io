@@ -7,6 +7,7 @@ a.btn {
   border: 1px solid;
   margin-top: 20px;
   transition: linear background-color 0.5s;
+  backdrop-filter: blur(10px);
 }
 
 a.btn:hover {
