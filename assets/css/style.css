@@ -243,6 +243,24 @@ footer > div {
   color: #fff;
 }
 
+footer > .footer-links ul {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+}
+
+footer > .footer-links ul > li > a {
+  font-size: 40px;
+  margin: 0;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  transition: color .5s ease-in-out;
+}
+
 footer > .footer-copyright {
   width: 100%;
   background-color: #111;
