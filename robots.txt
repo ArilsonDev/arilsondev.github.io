@@ -1,4 +1,3 @@
 User-Agent: *
-Disallow: 
 
 Sitemap: https://arilsondev.github.io/sitemap.xml
